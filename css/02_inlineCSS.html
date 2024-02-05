@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+    <head> 
+        <title>02_inlineCSS</title>
+    </head>
+    <body> 
+        
+        <h1> 1) Inline CSS </h1>
+
+        <!-- style="속성:값; 속성:값; 속성:값; ~~~" -->
+
+        <div style="width: 200px; height: 150px; background-color: red;"></div>
+        <div style="width: 100px; /*가로크기*/
+                    height: 100px; /*세로크기*/     
+                    /*속성 한개 주석 --*/         
+                    --background-color: blue;"></div>
+        <hr>
+        <div style="width: 100%; height: 100px; background-color: green;"></div>
+        <hr>
+        <div style="width: 50%; height: 100px; background-color: blueviolet;"></div>
+        <hr>
+
+        <!-- 참조 https://www.w3schools.com/css/css_background.asp -->
+        <!-- background 배경 관련 스타일 -->
+        <div style="width: 300px;
+                    height: 300px;
+                    background-image: url(../images/angel.png);
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    background-size: 20% 20%; /*가로 세로*/"></div><hr>
+
+        <!-- 텍스트 관련 스타일 -->
+        <div style="width: 300px;
+                    height: 300px;
+                    background-color: yellow;
+                    color: brown;                /*글자색*/
+                    text-decoration: underline;    /*밑줄*/  
+                    text-indent: 50px;             /*들여쓰기*/
+                    text-shadow: 3px 2px blue;   /*그림자 수평(3) 수직(2) 파랑*/
+                    letter-spacing: -3px;           /*글자간격*/
+                    line-height: 20px;              /*줄간격*/
+                    word-spacing: 10px;             /*단어간격*/
+                    "> 
+            성태윤 정책실장은 용산 대통령실 청사에서 "통신사 간 단말기 보조금 지급 경쟁을 촉진할 수 있도록 가급적 2월 중에 단통법 관련 시행령을 개정하려고 한다"며 "통신사와 유통점이 가입 비용, 요금제 등을 고려해 자유롭게 지원금을 지급할 수 있도록, 시행령상 가능한 부분들은 개정하려고 한다"고 말했다.
+            성 실장은 "그렇게 되면 (단통법이) 완전히 폐지된 수준까지는 아니라고 해도, 지원금 형태를 통해 단말기 가격이 좀 낮아질 수 있도록 하는 부분이 있지 않겠느냐"고 덧붙였다.
+        </div>
+        <hr>
+
+        <textarea cols="30" rows="10"
+                  style="background-image: url(../images/coffee.png);
+                  background-repeat: no-repeat;
+                  background-position: right bottom;
+                  background-size: 30% 40%;"></textarea>
+
+    </body>
+</html> 
